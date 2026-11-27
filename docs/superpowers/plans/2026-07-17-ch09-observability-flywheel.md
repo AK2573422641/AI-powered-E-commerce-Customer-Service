@@ -526,7 +526,7 @@ curl -fsSL https://raw.githubusercontent.com/langfuse/langfuse/main/docker-compo
 
 ```yaml
       LANGFUSE_INIT_ORG_ID: mewhelp
-      LANGFUSE_INIT_ORG_NAME: MewHelp
+      LANGFUSE_INIT_ORG_NAME: 电商平台
       LANGFUSE_INIT_PROJECT_ID: mewhelp-ch09
       LANGFUSE_INIT_PROJECT_NAME: mewhelp
       LANGFUSE_INIT_PROJECT_PUBLIC_KEY: pk-lf-mewhelp-local

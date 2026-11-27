@@ -1,11 +1,11 @@
-# MewHelp 学习知识库 — 写给 Java 开发者的 Python + AI 应用开发指南
+# 学习知识库 — 写给 Java 开发者的 Python + AI 应用开发指南
 
 > 本知识库专为「6 年 Java 经验、Python 和 AI 应用开发零基础」的读者编写。
 > 所有讲解都用 Java 概念类比，注解统一以 **AI解析** 开头，用大白话说清楚。
 
 ## 这套文档是什么
 
-MewHelp 是一个电商智能客服 Agent（AI 客服机器人），技术栈是
+本项目是一个电商智能客服 Agent（AI 客服机器人），技术栈是
 **FastAPI + LangGraph/LangChain + MySQL + Milvus**。
 
 它麻雀虽小五脏俱全：一个 HTTP 服务、一张「状态机」流程图、一个能查订单/查物流/答政策/走退款/建工单的

@@ -1392,7 +1392,7 @@ from app.core.taxonomy import TOPIC_NAMES
 
 DIR = pathlib.Path("data/ch10/onnx")
 
-app = FastAPI(title="mewhelp ch10 topic classifier")
+app = FastAPI(title="ch10 topic classifier")
 _sess = ort.InferenceSession(str(DIR / "model.onnx"), providers=["CPUExecutionProvider"])
 _tok = Tokenizer.from_file(str(DIR / "tokenizer.json"))
 _tok.enable_truncation(max_length=128)
